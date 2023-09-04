@@ -1,7 +1,10 @@
 // import { API_URL } from "@/utils/api";
+import { useSetState } from "@mantine/hooks";
 import { Input, Button, Card, Title, Stack } from "@mantine/core";
+import { Donation } from "@/utils/types";
 
 export default function Form() {
+
   return (
     <Card withBorder shadow="xs" p="xl" bg="cyan.2">
       <Title order={1} color="blue">
