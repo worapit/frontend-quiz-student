@@ -8,4 +8,3 @@ export const Donation = z.object({
   amount: z.number().min(1000, { message: "Not enough" }),
   time: z.string(),
 });
-
